@@ -19,4 +19,10 @@ Various tweaks, scripts, and tricks for Amazon FireTV sticks (tested with Fire O
 
 - Kodi
 - KodiLauncher
-- 
+- Launcher Manager
+
+## KODI Addons to Install
+
+- GRID Skin
+- NHL Live
+- JellyFin
