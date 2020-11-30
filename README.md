@@ -14,15 +14,22 @@ Various tweaks, scripts, and tricks for Amazon FireTV sticks (tested with Fire O
 - Netflix
 - WWE
 - Downloader
+- JustWatch
 
 ## Apps to Install (Sideload)
 
 - Kodi
 - KodiLauncher
 - Launcher Manager
+- Tivimate
 
 ## KODI Addons to Install
 
 - GRID Skin
 - NHL Live
 - JellyFin
+
+## KODI Sources to Add
+
+- Jellyfin (https://kodi.jellyfin.org)
+- Recordings
