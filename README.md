@@ -33,3 +33,9 @@ Various tweaks, scripts, and tricks for Amazon FireTV sticks (tested with Fire O
 
 - Jellyfin (https://kodi.jellyfin.org)
 - Recordings
+
+## Kodi Menu Structure
+
+| Shows (All Shows)                 | Movies (All Movies | Sports (Jellyfin Sports) | Live TV (Tivimate) | YouTube (YouTube App) | On Demand (JustWatch)           | Settings (Kodi Settings)    |   |
+|-----------------------------------|--------------------|--------------------------|--------------------|-----------------------|---------------------------------|-----------------------------|---|
+| Dramas Comedies Cartoons Holidays |                    | WWE Live NHL Live        | Recordings         |                       | Netflix Prime Video Disney Plus | TV Settings Files Apps Exit |   |
