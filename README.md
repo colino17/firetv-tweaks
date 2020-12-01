@@ -36,6 +36,9 @@ Various tweaks, scripts, and tricks for Amazon FireTV sticks (tested with Fire O
 
 ## Kodi Menu Structure
 
-| Shows (All Shows)                 | Movies (All Movies | Sports (Jellyfin Sports) | Live TV (Tivimate) | YouTube (YouTube App) | On Demand (JustWatch)           | Settings (Kodi Settings)    |   |
-|-----------------------------------|--------------------|--------------------------|--------------------|-----------------------|---------------------------------|-----------------------------|---|
-| Dramas Comedies Cartoons Holidays |                    | WWE Live NHL Live        | Recordings         |                       | Netflix Prime Video Disney Plus | TV Settings Files Apps Exit |   |
+| **Shows (All Shows)** | **Movies (All Movies** | **Sports (Jellyfin Sports)** | **Live TV (Tivimate)** | **YouTube (YouTube App)** | **On Demand (JustWatch)** | **Settings (Kodi Settings)** |
+|:-----------------:|:------------------:|:------------------------:|:------------------:|:---------------------:|:---------------------:|:------------------------:|
+|       Dramas      |                    |         WWE Live         |     Recordings     |                       |        Netflix        |        TV Settings       |
+|      Comedies     |                    |         NHL Live         |                    |                       |      Prime Video      |           Files          |
+|      Cartoons     |                    |                          |                    |                       |      Disney Plus      |           Apps           |
+|      Holidays     |                    |                          |                    |                       |                       |           Exit           |
