@@ -11,6 +11,7 @@ Various tweaks, scripts, and tricks for Amazon FireTV sticks (tested with Fire O
 
 - Disney Plus
 - Youtube
+- Prime Video
 - Netflix
 - WWE
 - Downloader
