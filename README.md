@@ -10,36 +10,54 @@ Various tweaks, scripts, and tricks for Amazon FireTV sticks (tested with Fire O
 ## Apps to Install (Store)
 
 - Disney Plus
-- Youtube
 - Prime Video
 - Netflix
-- WWE
-- Downloader
-- JustWatch
 
 ## Apps to Install (Sideload)
 
-- Kodi
-- KodiLauncher
+- Kodi (Custom Build)
 - Launcher Manager
-- Tivimate
+- Smart Tube Next
 
-## KODI Addons to Install
+## KODI Setup
+- Install custom build of Kodi (designed to work as a launcher)
+```
+adb install Kodi.apk
+```
+- Push backup settings to new device
+```
+adb push .kodi/. /sdcard/Android/data/org.xbmc.kodi/files/.kodi
+```
+- Disable default launcher using Launcher Manager
 
-- GRID Skin
-- NHL Live
-- JellyFin
+#### KODI Settings
 
-## KODI Sources to Add
+- Settings Level
+  - Expert
+- Media
+  - General
+    - Show Parent Items = DISABLED
+    - Show Add Source = DISABLED
+  - Videos
+    - Show "All Items" entry = DISABLED
+    - Show Movie Sets = ENABLED
+    - Select First Unwatched Season/Episode = 
+- Interface
+  - Skin
+    - Skin = TrueGrid
+    - Show RSS = DISABLED
+  - Regional
+    - Language = ENGLISH 
+- Player
+  - Language
+    - Preferred Audio = ENGLISH
+    - Preferred Subtitle = NONE
+- Services
+  - General
+    - Device Name = NAME
+- System
+  - Add-Ons
+    - Updates = AUTOMATIC
+    - Notifications = ENABLED
+    - Unknown Sources = ENABLED
 
-- Jellyfin (https://kodi.jellyfin.org)
-- Recordings
-
-## Kodi Menu Structure
-
-| **Shows (All Shows)** | **Movies (All Movies** | **Sports (Jellyfin Sports)** | **Live TV (Tivimate)** | **YouTube (YouTube App)** | **On Demand (JustWatch)** | **Settings (Kodi Settings)** |
-|:-----------------:|:------------------:|:------------------------:|:------------------:|:---------------------:|:---------------------:|:------------------------:|
-|       Dramas      |                    |         WWE Live         |     Recordings     |                       |        Netflix        |        TV Settings       |
-|      Comedies     |                    |         NHL Live         |                    |                       |      Prime Video      |           Files          |
-|      Cartoons     |                    |                          |                    |                       |      Disney Plus      |           Apps           |
-|      Holidays     |                    |                          |                    |                       |                       |           Exit           |
